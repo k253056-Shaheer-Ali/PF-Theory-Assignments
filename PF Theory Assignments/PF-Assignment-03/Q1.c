@@ -1,5 +1,5 @@
 #include<stdio.h>
-//added 
+
 float calculateRepayment(float loan, float interestRate, int years, float extraPayment){
 	if(loan<=0 || years<=0){
 		return 0;
@@ -31,3 +31,4 @@ int main(){
 //ANS: recursion is suitable for such incremental calculations because Each year's loan depends on the previous year's loan
 
 //NOTE: I hardcoded extraPayment and installment (as it was not given in Q)
+
